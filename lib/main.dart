@@ -100,16 +100,11 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             Text(
               '1941720136',
-              style: Theme.of(context).textTheme.headline4,
+              style: Theme.of(context).textTheme.headline6,
             ),
           ],
         ),
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
-        tooltip: 'Increment',
-        child: const Icon(Icons.add),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
 }
